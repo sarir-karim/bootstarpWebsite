@@ -1,0 +1,1515 @@
+
+/************************************************** stying on body  ***********************************************/
+body{
+    background-color: #17151D;
+}
+
+/**************************************************  body styling ends ***********************************************/
+
+
+/************************************************** styling on Navbar section ***********************************************/
+
+.backgroundImg{
+    background-image: url(./images/ist.png);
+    background-size: cover;
+    background-position: fixed;
+}
+
+.backgroundImg .color{
+    background: rgba(40, 40, 50, 0.9);
+    padding-bottom: 30px;
+}
+
+.backgroundImg .logo{
+    padding-left: 15rem;
+    margin-right: 15rem;
+}
+
+.backgroundImg .navbar{
+    font-family: Verdana;
+    font-weight: bold;
+
+}
+
+.backgroundImg .nav-item .nav-link {
+    margin: 20px;
+}
+
+.backgroundImg .navbar :first-child{
+    text-decoration: none;
+    color:#FF8600 ;
+}
+.backgroundImg .navbar   {
+    padding-top: 4rem;
+}
+
+/**************************************************   styling on navbar ends ***********************************************/
+
+
+/**************************************************  syling on main container starts ***********************************************/
+
+.backgroundImg .heading{
+     padding-left: 1rem;
+     padding-top: 10rem;
+     color: #fff;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bolder;
+     font-size: 3.2rem;
+     color:#FF8600;
+}
+.backgroundImg .paragraph{
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: #ffff;
+    padding-top: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.backgroundImg .contact{
+    font-size: 1.6rem;
+    padding:15px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 18px;
+    color: #2F2C2D;
+    background-color:#FF8600;
+    font-weight: 700;
+    margin-left: 1rem;
+    cursor: pointer;
+}   
+
+.backgroundImg .bgColor{
+    background: #19171E;
+}
+.backgroundImg   .AboutUs{
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 11rem;
+}
+
+.backgroundImg .img-para{
+    padding-bottom: 7rem;
+}
+
+.backgroundImg .img-para .img img{
+    margin-top: 5rem;
+    width: 90%;
+    height: 88%;
+    padding-left:3rem;
+ }
+
+/**************************************************   styling on maincontainer ends ***********************************************/
+ 
+
+/**************************************************  styling on section two started ***********************************************/
+
+
+ .section-2 {
+     background-color: #17151D;
+     padding-bottom: 5rem;
+ }
+
+ .section-2 .wrapper{
+     padding-top: 7rem;
+     
+     background-color: #17151D;
+ }
+
+ .section-2 .wrapper {
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     display: grid;
+     /* grid-gap: 40px; */
+     margin-left: 50px;
+     grid-column-gap: 40px;
+     grid-template-areas: "img-2  para-2";
+
+ }
+ 
+
+ .section-2 .wrapper .para-2 h2{
+     font-size: 2.8rem;
+     margin-top: 6rem;
+     font-weight: 600;
+     font-weight: 700;
+     color: #fff;
+ }
+
+ .section-2 .wrapper .para-2 p {
+     font-size: 1.7rem;
+     font-weight: bold;
+     padding-top: 20px;
+     line-height: 2.4rem;
+     font-weight: 700;
+     color: #fff
+ }
+
+.para-2{
+     grid-area: para-2;
+ }
+
+
+.img-2{
+    grid-area: img-2;
+}  
+
+ .section-2 .wrapper .img-2 img{
+     width: 100%;
+     height: 90vh;
+ }
+ 
+/**************************************************  styling on section-2 ends ***********************************************/
+ 
+ 
+/**************************************************  s styling on third section ***********************************************/
+
+ /**************************************************  s styling on third section ***********************************************/
+.container-fluid {
+    background-color: #17151D;
+   
+}
+ .third-cont .rectange{
+    /* background-image: url(./images/Shape.png); */
+    background-size: cover;
+    background-repeat: no-repeat;  
+     width: 101.1%;   
+
+ }
+  .second-img{
+     position: absolute;
+     top: -5rem;
+     right: 0;
+     width: 29%;
+ }
+ .third-card{
+    width: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+ .third-img{
+     position: absolute;
+     top: 20rem;
+     left: 14rem;
+ }
+ .third-heading{
+     font-size: 36px;
+     font-weight: bolder;
+     margin-bottom: 20px;
+     
+ }
+ .third-para{
+     font-size: 25px;
+     font-weight: bolder;
+ }
+
+ .fourth-img{
+     position: absolute;
+     top: 30rem;
+     /* width: 60%; */
+     left: 0;
+ }
+
+ .fifth-img{
+     position: absolute;
+     right: 0;
+     width: 58%;
+     top: 39.5rem;
+ }
+
+
+
+/**************************************************  styling ends on third section***********************************************/
+
+
+/**************************************************  styling ends on third section***********************************************/
+
+ 
+/**************************************************  styling on section 4 ***********************************************/
+
+
+ .fourth-section  .wrapper2{
+     background-color: #17151D;
+     padding-bottom: 10rem;
+     padding: 30px;
+ }
+
+ .footer-section .wrapper2 h2{
+     font-size: 30px;
+     color: white;
+     text-align: center;
+ }
+
+ .fourth-section .content{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 40px;
+ }
+ .fourth-section .content2{
+     display: grid;
+     padding-bottom: 80px;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 40px;
+     margin-top: 35px;
+ }
+
+ .fourth-section .wrapper2 img{
+     width: 100%;
+ }
+
+ 
+/**************************************************  styling on section-4 ends ***********************************************/
+
+ 
+/**************************************************  styling on fifth section ***********************************************/
+
+ .fifth-section .wrapper5{
+     background-image: url(./images/layer.png);
+     background-size: cover;
+
+ }
+
+ .fifth-section .wrapper5 .heading{
+     padding-top: 11rem;
+     padding-bottom: 11rem;
+ }
+
+ .fifth-section .wrapper5 .heading h2{
+     font-size: 43px;
+     font-weight: 800;
+     padding-bottom: 20px;
+ }
+
+ .fifth-section .wrapper5 .card{
+     padding: 4rem;
+     background-color: rgba(10,10,20, 0.5);
+     color: #fff;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 600;
+     line-height: 32px;
+     border: 8px solid #D47C00;
+     text-align: center;
+     font-size: 30px;
+     width: 52%;
+ }
+ /* SECTION FIVE ENDS HERE */
+ 
+/* SECTION SIX STARTS FORM HERE */
+
+ .six-section {
+     background-color: #17151D;
+     padding-bottom: 10rem;
+ }
+
+ .six-section .heading6 .head6 h2 {
+     font-size: 47px;
+     font-weight: 700;
+     text-align: center;
+     padding-top: 9rem;
+     color: #fff;
+     padding-bottom: 3rem;
+ }
+ .six-section .heading6 .box6{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    ;
+ }
+
+
+ .six-section .card1{
+     width: 90%;
+     margin: 15px ;
+     background: transparent;
+ }
+
+ .six-section .card1 h4{
+     font-size: 25px;
+     padding-top: 20px;
+     color: #D47C00;
+     font-weight: 700;
+ }
+
+ .six-section .card1 h4{
+     padding-bottom: 20px;
+ }
+ .six-section .card1 p {
+     font-size: 15px;
+     font-weight: 600px;
+     color: #fff;
+ }
+
+ .six-section .card1 h5{
+     color: #D47C00;
+     font-size: 23px;
+     font-weight: 800;
+ }
+/**************************************************  styling on fifth section ends  ***********************************************/
+
+/********************** **************************** styling on footer-section  ***********************************************/
+
+.footer-section{
+    background-color: #17151D;
+}
+
+.footer-section .footer-wrapper{
+    background-image: url(./images/Rectangle.png);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.footer-section .footer-wrapper .footer-image{
+    display: grid;
+    grid-template-areas: ".foot-img foot-heading";
+    grid-gap: 20px;
+}
+
+.foot-img {
+    width: auto;
+    height: auto;
+    margin-top: -40px;
+    grid-area: "foot-img";
+}
+ .foot-heading{
+     grid-area: "foot-heading";
+}
+
+.footer-section .footer-wrapper .footer-image .foot-heading  h4 {
+    font-size: 40px;
+    font-weight: 750;
+    margin-top: 7rem;
+    color: white;
+    /* float: left; */
+}
+
+.footer-section .footer-wrapper .footer-image .foot-heading  p{
+    font-size: 30px;
+    font-weight: 700;
+    /* float: left; */
+    color: white;
+    line-height: 40px;
+    margin-right:8rem;
+
+}
+/************************************************** styling on footer section ends  ***********************************************/
+
+/************************************************** styling on footer section starts ***********************************************/
+
+.subfooter-section{
+    background-color: #17151D;
+    padding-bottom: 6rem;
+    
+}
+.subfooter-section ul li{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 4rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.subfooter-section .sub-wrapper img{
+    padding-top: 7rem;
+}
+
+.subfooter-section .icons img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/************************************************** MEDIA QUERIES STARTS FROM HERE ***********************************************/
+
+
+
+@media screen and (max-width: 1500px){
+       
+    /* *****************  MEDIA QUERIS ON NAVBAR-SECTION    ********************* */
+       .backgroundImg .logo{
+        padding-left: 9rem;
+        margin-right: 9rem;
+        width: 50%;
+        height: 13vh;
+    }
+
+ }
+
+ @media screen and (max-width:1366px){
+     /* media queries on nav */
+    .backgroundImg .logo{
+        padding-left: 5rem;
+        margin-right: 5rem;
+        width: 50%;
+        height: 13vh;
+    }
+ }
+
+ @media screen and (max-width: 1395px){
+/* media queries on nav */
+    .backgroundImg .logo{
+        padding-left: 8rem;
+        margin-right: 8rem;
+        width: 80%;
+        height: 13vh;
+    }
+
+    .backgroundImg .navbar   {
+        padding-top: 4rem;
+    }
+    .backgroundImg .nav-item .nav-link {
+        margin: 17px;
+        font-size: 14px;
+    }
+
+    /* media queries on third section */
+
+    
+ }
+
+
+@media screen and (max-width: 1269px) {
+     /* media queries on navbar */
+
+     .backgroundImg .logo{
+        padding-left: 6rem;
+        margin-right: 6rem;
+        width: 80%;
+        height: 13vh;
+    }
+
+    .backgroundImg .navbar   {
+        padding-top: 4rem;
+    }
+    /* media queries on navbar ends here */
+
+    /* media queries on main body */
+    .backgroundImg .img-para .img img{
+      width: 86%;
+      height: 88%;
+     }
+
+     .backgroundImg .heading{
+        font-size: 2.7rem;
+        margin-left: -20px;
+   }
+   .backgroundImg .paragraph{
+       font-size: 1.5rem;
+       margin-left: -20px;
+   }
+   
+    .backgroundImg .contact{
+        font-size: 1.5rem;
+        margin-left: -5px;
+        cursor: pointer;
+    }   
+
+    /* MEDIA QUERIES ON FOOTER SECTION */
+    
+     .footer-section .footer-wrapper{
+        background-image: url(./images/Rectangle.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+    
+    
+    .footer-section .footer-wrapper .footer-image .foot-img {
+        width: 85%;
+    }
+
+
+}
+
+
+    @media screen and (max-width: 1200px){
+        .fifth-section .wrapper5{
+            background-image: url(./images/layer.png);
+            background-size: cover;
+            background-position: fixed;
+       
+        }
+       
+        .fifth-section .wrapper5 .heading{
+            padding-top: 11rem;
+            padding-bottom: 11rem;
+        }
+       
+        .fifth-section .wrapper5 .heading h2{
+            font-size: 30px;
+            font-weight: 800;
+        }
+       
+        .fifth-section .wrapper5 .card{
+            padding: 3rem;
+            background-color: rgba(10,10,20, 0.5);
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            line-height: 32px;
+            border: 8px solid #D47C00;
+            text-align: center;
+            font-size: 25px;
+            width: 52%;
+        }
+        .footer-section .footer-wrapper{
+            background-image: url(./images/Rectangle.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 60vh;
+        }
+
+        .footer-section .footer-wrapper .footer-image img{
+            height: 70vh;
+
+        }
+
+        .footer-section .footer-wrapper .footer-image .foot-heading  h4 {
+            margin-top: 3rem;
+            font-size: 40px;
+            font-weight: 750;
+            color: white;
+            margin-right:   10rem;
+        }
+
+        /* media queries on third section */
+
+        
+         .fourth-img{
+             position: absolute;
+             top: 26rem;
+             width: 60%;
+             left: 0;
+         }
+        
+
+    }
+
+
+@media screen and (max-width:1140px){
+    .backgroundImg .img-para .img img{
+        width: 88%;
+        height: 83%;
+        padding-left: 10px;
+    }
+  
+       .backgroundImg .heading{
+          font-size: 2.7rem;
+          padding-top: 9rem;
+          margin-left: -20px;
+     }
+     .backgroundImg .paragraph{
+         font-size: 1.5rem;
+         margin-left: -20px;
+     }
+     
+    .backgroundImg .contact{
+        font-size: 1.5rem;
+        margin-left: -5px;
+    } 
+    
+       /* *****************  MEDIA QUERIS ON SECTION TWO    ********************* */
+
+  /*MEDIA QUERIES ON SECTION FOOTER */
+
+  .footer-section .footer-wrapper{
+    background-image: url(./images/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.footer-section .footer-wrapper .footer-image .foot-img {
+    width: 95%;
+}
+
+.footer-section .footer-wrapper .footer-image .foot-heading  h4 {
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: 750;
+    color: white;
+    margin-right: 10rem;
+}
+.footer-section .footer-wrapper .footer-image .foot-heading  p{
+    font-size: 25px;
+}
+
+.third-cont .rectange{
+    /* background-image: url(./images/Shape.png); */
+    background-size: cover;
+    background-repeat: no-repeat;  
+     width: 101.1%;   
+
+ }
+  .second-img{
+     position: absolute;
+     top: -5rem;
+     right: 0;
+     width: 29%;
+ }
+ .third-card{
+    width: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+ .third-img{
+     position: absolute;
+     top: 17rem;
+     left: 5rem;
+ }
+ .third-heading{
+     font-size: 36px;
+     font-weight: bolder;
+     margin-bottom: 20px;
+     
+ }
+ .third-para{
+     font-size: 20px;
+     font-weight: bolder;
+ }
+
+ .fourth-img{
+     position: absolute;
+     top: 26rem;
+     width: 60%;
+     left: 0;
+ }
+
+ .fifth-img{
+     position: absolute;
+     right: 0;
+     width: 58%;
+     top: 33rem;
+ }
+
+
+
+
+}
+
+   @media screen and (max-width: 1116px){
+    /* media queries on navbar */
+
+    .backgroundImg .logo{
+    padding-left: 3rem;
+    margin-right: 3rem;
+    width: 80%;
+    height: 13vh;
+    }
+    .backgroundImg .navbar{
+    padding-top: 4rem;
+    }
+
+    .third-cont .rectange{
+        /* background-image: url(./images/Shape.png); */
+        background-size: cover;
+        background-repeat: no-repeat;  
+         width: 101.1%;   
+    
+     }
+      .second-img{
+         position: absolute;
+         top: -5rem;
+         right: 0;
+         width: 29%;
+     }
+     .third-card{
+        width: 45%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+     .third-img{
+         position: absolute;
+         top: 17rem;
+         left: 5rem;
+     }
+     .third-heading{
+         font-size: 36px;
+         font-weight: bolder;
+         margin-bottom: 20px;
+         
+     }
+     .third-para{
+         font-size: 20px;
+         font-weight: bolder;
+     }
+    
+     .fourth-img{
+         position: absolute;
+         top: 24rem;
+         width: 60%;
+         left: 0;
+     }
+    
+     .fifth-img{
+         position: absolute;
+         right: 0;
+         width: 58%;
+         top: 31rem;
+     }
+
+    @media screen and (max-width:1080px){
+    .backgroundImg .logo{
+        padding-left: 3rem;
+        margin-right: 3rem;
+        width: 90%;
+        height: 13vh;
+    } 
+
+    .third-cont .rectange{
+        /* background-image: url(./images/Shape.png); */
+        background-size: cover;
+        background-repeat: no-repeat;  
+         width: 101.1%;   
+    
+     }
+      .second-img{
+         position: absolute;
+         top: -5rem;
+         right: 0;
+         width: 29%;
+     }
+     .third-card{
+        width: 45%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+     .third-img{
+         position: absolute;
+         top: 15rem;
+         left: 10rem;
+     }
+     .third-heading{
+         font-size: 36px;
+         font-weight: bolder;
+         margin-bottom: 20px;
+         
+     }
+     .third-para{
+         font-size: 20px;
+         font-weight: bolder;
+     }
+    
+     .fourth-img{
+         position: absolute;
+         top: 24rem;
+         width: 60%;
+         left: 0;
+     }
+    
+     .fifth-img{
+         position: absolute;
+         right: 0;
+         width: 58%;
+         top: 32rem;
+     }
+    
+    }
+
+    @media screen and (max-width: 1024px){
+    .backgroundImg .logo{
+        padding-left: 2rem;
+        margin-right: 2.8rem;
+        width: 90%;
+        display: none;
+        height: 13vh;
+    }
+    .backgroundImg .nav-item .nav-link {
+        margin: 30px;
+        font-size: 13px;
+    }   
+
+      /* media queries on section fifth */
+
+      .fifth-section .wrapper5{
+        background-image: url(./images/layer.png);
+        background-size: cover;
+        background-position: fixed;
+   
+    }
+   
+   
+    .fifth-section .wrapper5 .heading h2{
+        font-size: 30px;
+    }
+   
+    .fifth-section .wrapper5 .card{
+        font-size: 25px;
+        width: 70%;
+    }
+
+    .footer-section .footer-wrapper{
+        background-image: url(./images/Rectangle.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+
+  
+    
+    .footer-section .footer-wrapper .footer-image .foot-img img {
+        width: 90%;
+        height: 30vh;
+    }
+    
+    .footer-section .footer-wrapper .footer-image .foot-heading  h4 {
+        margin-top: 2rem;
+        font-size: 28px;
+
+    }
+    .footer-section .footer-wrapper .footer-image .foot-heading  p{
+        font-size: 25px;
+    }
+
+/* MEDIA QUERIES ON SECTION 2 */
+
+.section-2 .wrapper{
+    grid-gap: 70px;
+}
+.section-2 .wrapper .img-2 img{
+    width: 110%;
+    height: 40vh;
+}
+    }
+
+   @media screen  and (max-width: 1010px){
+
+    /* media queries on navbar */
+
+    .backgroundImg .logo{
+        padding-left: 3rem;
+        margin-right: 4rem;
+        width: 100%;
+        height: 13vh;
+    }
+
+    .backgroundImg .navbar   {
+        padding-top: 4rem;
+    }
+
+    .backgroundImg .nav-item .nav-link {
+        margin: 8px;
+        font-size: 13px;
+    }
+
+/* media queries on navbar ends here */
+
+/* media queries on main body */
+    .backgroundImg .img-para .img img{
+        width: 80%;
+        height: 80%;
+    }
+   .backgroundImg .heading{
+      font-size: 2.3rem;
+      margin-left: -5rem;
+    }
+    .backgroundImg .paragraph{
+     font-size: 1.3rem;
+     margin-left: -5rem;
+     padding-right: 20px;
+    }
+ 
+    .backgroundImg .contact{
+        font-size: 1.5rem;
+        margin-left: -4rem;
+    }   
+ /* media queries on body ends here */
+
+}
+
+   
+   @media screen and (max-width: 1108px){
+        .backgroundImg .logo{
+            padding-left: 3rem;
+            margin-right: 3rem;
+            width: 90%;
+            height: 13vh;
+        }
+   }
+
+   @media screen and (max-width: 992px){
+    .backgroundImg .img-para .img img{
+        width: 75%;
+        height: 78%;
+        padding-top: 40px;
+    }
+   .backgroundImg .heading{
+      font-size: 2.3rem;
+      margin-left: -5rem;
+    }
+    .backgroundImg .paragraph{
+     font-size: 1.3rem;
+     margin-left: -5rem;
+     padding-right: 20px;
+    }
+ 
+    .backgroundImg .contact{
+        font-size: 1.4rem;
+        margin-left: -4rem;
+        padding: 10px 20px;
+   }
+
+   .fifth-section .wrapper5{
+    background-image: url(./images/layer.png);
+    background-size: cover;
+    background-position: fixed;
+
+}
+
+.fifth-section .wrapper5 .heading{
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+
+.fifth-section .wrapper5 .heading h2{
+    font-size: 20px;
+}
+
+.fifth-section .wrapper5 .card{
+    font-size: 18px;
+    width: 70%;
+}
+
+/* section 2 styling */
+.section-2 .wrapper .img-2 img{
+    width: 110%;
+    height: 40vh;
+}
+.section-2 .wrapper .para-2 h2{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.section-2 .wrapper .para-2 p{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.footer-section .footer-wrapper .footer-image{
+    grid-template-areas: "foot-img"
+                         "foot-heading";
+}
+.footer-section .footer-wrapper{
+    background-image: url(./images/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.footer-section .footer-wrapper .footer-image{
+    text-align: center;
+}
+
+.footer-section .footer-wrapper .footer-image .foot-img img {
+    width: 55%;
+    margin:  0 auto;
+    height: 40vh;
+}
+
+.footer-section .footer-wrapper .footer-image .foot-heading  h4 {
+    margin-top: 2rem;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+
+}
+.footer-section .footer-wrapper .footer-image .foot-heading  p{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.third-cont .rectange{
+    /* background-image: url(./images/Shape.png); */
+    background-size: cover;
+    background-repeat: no-repeat;  
+     width: 101.1%;   
+
+ }
+  .second-img{
+     position: absolute;
+     top: -5rem;
+     right: 0;
+     width: 29%;
+ }
+ .third-card{
+    width: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+ .third-img{
+     position: absolute;
+     top: 10rem;
+     left: 5rem;
+ }
+ .third-heading{
+     font-size: 25px;
+     font-weight: bolder;
+     margin-bottom: 20px;
+     
+ }
+ .third-para{
+     font-size: 20px;
+     font-weight: bolder;
+ }
+
+ .fourth-img{
+     position: absolute;
+     top: 22rem;
+     width: 60%;
+     left: 0;
+ }
+
+ .fifth-img{
+     position: absolute;
+     right: 0;
+     width: 58%;
+     top: 29rem;
+ }
+
+
+
+}
+
+/* MEDIA QUERIES ON FOOTER SECTIOM */
+
+
+
+}
+
+   @media screen  and (max-width: 832px){
+         /* media queries on main body */
+    .backgroundImg .img-para {
+        display: block !important;
+    }
+    .backgroundImg .img-para .img img{
+        width: 80%;
+        height: 75%;
+       }
+  
+    .backgroundImg .heading{
+          font-size: 3.5rem;
+          text-align: center;
+     }
+    .backgroundImg .paragraph{
+         text-align: center;
+         font-size: 1.5rem;
+     } 
+
+    .backgroundImg .contact{
+        font-size: 1.4rem;
+        padding: 10px 20px;
+        margin-top: 20px;
+   }
+
+   .backgroundImg .para{
+       text-align: center;
+   }   
+   /* media queries on body ends */
+
+    /* *****************  MEDIA QUERIS ON SECTION TWO    ********************* */
+    .section-2 .wrapper {
+        grid-template-areas:
+        "img-2"
+        "para-2"
+        ;
+    }
+    .section-2 .wrapper .img-2{
+        padding: 0;
+        text-align: center;
+    }
+    .section-2 .wrapper .img-2 img{
+        width: 80%;
+    }
+    .section-2 .wrapper .para-2 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .section-2 .wrapper .img-2 p{
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .third-cont .rectange{
+        /* background-image: url(./images/Shape.png); */
+        background-size: cover;
+        background-repeat: no-repeat;  
+         width: 101.1%;   
+    
+     }
+      .second-img{
+         position: absolute;
+         top: -5rem;
+         right: 0;
+         width: 29%;
+     }
+     .third-card{
+        width: 45%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+     .third-img{
+         position: absolute;
+         top: 10rem;
+         left: 5rem;
+     }
+     .third-heading{
+         font-size: 36px;
+         font-weight: bolder;
+         margin-bottom: 20px;
+         
+     }
+     .third-para{
+         font-size: 20px;
+         font-weight: bolder;
+     }
+    
+     .fourth-img{
+         position: absolute;
+         top: 18rem;
+         width: 60%;
+         left: 0;
+     }
+    /* third section */
+     .fifth-img{
+         position: absolute;
+         right: 0;
+         width: 58%;
+         top: 26rem;
+     }
+
+}
+
+@media ( max-width:768px){
+
+    .third-cont .rectange{
+        /* background-image: url(./images/Shape.png); */
+        background-size: cover;
+        background-repeat: no-repeat;  
+         width: 101.1%;   
+    
+     }
+      .second-img{
+         position: absolute;
+         top: -5rem;
+         right: 0;
+         width: 30%;
+     }
+     .third-card{
+        width: 45%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+     .third-img{
+         position: absolute;
+         top: 7rem;
+         left: 5rem;
+         /* display: none; */
+     }
+     .third-heading{
+         font-size: 20px;
+         font-weight: bolder;
+         margin-bottom: 20px;
+         
+     }
+     .third-para{
+         font-size: 18px;
+         font-weight: bolder;
+     }
+    
+     .fourth-img{
+         position: absolute;
+         top: 17rem;
+         width: 60%;
+         left: 0;
+     }
+    /* third section */
+     .fifth-img{
+         position: absolute;
+         right: 0;
+         width: 58%;
+         top: 22rem;
+     }
+
+
+   }
+
+@media screen and (max-width: 660px){
+     
+    .fourth-section {
+        padding: 0;
+    }
+    .fourth-section .content2 img{
+        margin-top: 30px;
+    }
+    .fourth-section .content p{
+        margin-top: 19px;
+    }
+}
+
+@media screen and (max-width: 572px){
+  /* media queries on main body */
+    .backgroundImg .img-para {
+        display: block !important;
+    }
+    .backgroundImg .img-para .img img{
+        width: 85%;
+        height: 80%;
+       }
+  
+    .backgroundImg .heading{
+          font-size: 3rem;
+     }
+    .backgroundImg .paragraph{
+         font-size: 1.5rem;
+         margin-left: -15px;
+     }
+       
+
+   }
+
+   .fifth-section .wrapper5{
+    background-image: url(./images/layer.png);
+    background-size: cover;
+    background-position: fixed;
+
+}
+
+.fifth-section .wrapper5 .heading{
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+
+.fifth-section .wrapper5 .heading h2{
+    font-size: 20px;
+}
+
+.fifth-section .wrapper5 .card{
+    font-size: 16px;
+    width: 70%;
+}
+
+
+
+       /* *****************  MEDIA QUERIS ON SECTION TWO    ********************* */
+   
+ 
+
+@media screen and (max-width: 500px){
+  /* media queries on main body */
+    .backgroundImg .img-para {
+        display: block !important;
+    }
+    .backgroundImg .img-para .img img{
+        width: 100%;
+        height: 100%;
+          margin-top: 5rem;
+       }
+  
+       .backgroundImg .heading{
+          font-size: 2.5rem;
+     }
+     .backgroundImg .paragraph{
+         font-size: 1.2rem;
+     } 
+
+     
+
+     .backgroundImg .contact{
+        font-size: 1.7rem;
+        padding:10px 25px;
+    }  
+
+    .para{
+        text-align: center;
+    }
+
+    .fifth-section .wrapper5{
+        background-image: url(./images/layer.png);
+        background-size: cover;
+        background-position: fixed;
+   
+    }
+   
+    .fifth-section .wrapper5 .heading{
+        padding-top: 11rem;
+        padding-bottom: 11rem;
+    }
+   
+    .fifth-section .wrapper5 .heading h2{
+        font-size: 25px;
+    }
+   
+    .fifth-section .wrapper5 .card{
+        font-size: 20px;
+        width: 95%;
+    }
+    
+   }
+     
+   
+   /* media queries on body ends */
+
+@media screen and (max-width: 427px){
+  /*media queries on main body */
+     .backgroundImg .img-para {
+        display: block !important;
+    }
+    .backgroundImg .img-para .img img{
+         width: 85%;
+         height: 80%;
+          margin-top: 5rem;
+       }
+  
+    .backgroundImg .heading{
+          font-size: 2rem;
+     }
+     .backgroundImg .paragraph{
+         font-size: 1.2rem;
+     } 
+
+     .backgroundImg .contact{
+        font-size: 1.4rem;
+        padding:10px 20px;
+        margin-top: 10px;
+    } 
+    .para{
+        text-align: center;
+    }
+
+    }
+}
+ 
+/************************************************** styling on footer section starts ***********************************************/
+
+.subfooter-section{
+    background-color: #17151D;
+    padding-bottom: 6rem;
+    
+}
+.subfooter-section ul li{
+    display: inline-flex;
+    list-style: none;
+    margin: 30px;
+    font-size: 20px;
+    margin-top: 4rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.subfooter-section .sub-wrapper img{
+    padding-top: 7rem;
+}
+
+.subfooter-section .icons img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 660px){
+ .wrapper2 .head h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }  
+
+  .wrapper2 .content {
+      display: block !important;
+      width: 90%;
+      padding-left: 4rem;
+      padding-right: 2rem;
+      margin-bottom:1rem
+  }
+  .wrapper2 .content2 {
+      display: block !important;
+      width: 90%;
+      padding-left: 4rem;
+      padding-right: 2rem;
+      margin-bottom:1rem
+  }
+
+  .fifth-section .wrapper5{
+    background-image: url(./images/layer.png);
+    background-size: cover;
+    background-position: fixed;
+
+}
+
+.fifth-section .wrapper5 .heading{
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+
+.fifth-section .wrapper5 .heading h2{
+    font-size: 25px;
+}
+
+.fifth-section .wrapper5 .card{
+    font-size: 20px;
+    width: 70%;
+}
+
+}
+
+@media ( max-width:375px){
+
+    .third-cont .rectange{
+        /* background-image: url(./images/Shape.png); */
+        background-size: cover;
+        background-repeat: no-repeat;  
+         width: 101.1%;   
+    
+     }
+      .second-img{
+         position: absolute;
+         top: -5rem;
+         right: 0;
+         width: 30%;
+         display: none;
+     }
+     .third-card{
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+     .third-img{
+         position: absolute;
+         top: 7rem;
+         left: 2rem;
+         /* display: none; */
+     }
+     .third-heading{
+         font-size: 15px;
+         font-weight: bolder;
+         margin-bottom: 20px;
+         
+     }
+     .third-para{
+         font-size: 14px;
+         font-weight: bolder;
+     }
+    
+     .fourth-img{
+         position: absolute;
+         top: 17rem;
+         width: 60%;
+         left: 0;
+         display: none;
+     }
+    /* third section */
+     .fifth-img{
+         position: absolute;
+         right: 0;
+         width: 40%;
+         top: 17rem;
+     }
+
+
+   }
+
+@media screen and (max-width:  730px){
+    .wrapper2 .head h2{
+        font-size: 2.5rem;
+    }
+}
+   
